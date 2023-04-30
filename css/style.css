@@ -176,17 +176,14 @@
 /* media screen*/
 @media screen and (max-width: 600px) {
   .nav-container {
-    padding: 0 5%;
+    padding: 0 8%;
     font-family: var(--my-font);
   }
-  .navber-list .nav-li a {
-    text-decoration: none;
-    margin: 0 10px;
-    color: var(--black-color);
-    display: block;
+  .navber-list .nav-li {
+    list-style-type: none;
+    margin-left: 20px;
   }
-
-  .navber img {
+  .logo img {
     width: 60%;
   }
 
